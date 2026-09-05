@@ -1,0 +1,6 @@
+{
+  "name": "MY MEMO",
+  "description": "Mobile-first offline Local Memo Manager for Market and Medicine memos with smart calculation, auto-save to IndexedDB, and PDF/JPG export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

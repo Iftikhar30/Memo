@@ -1,0 +1,31 @@
+{
+  "id": "/",
+  "name": "MY MEMO - লোকাল মেমো ম্যানেজার",
+  "short_name": "MY MEMO",
+  "description": "Android ও অফলাইনের জন্য লোকাল বাজারের মেমো এবং ঔষধের মেমো ম্যানেজার।",
+  "theme_color": "#059669",
+  "background_color": "#f8fafc",
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

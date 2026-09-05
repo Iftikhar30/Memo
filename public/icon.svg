@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#0f766e" />
+    </linearGradient>
+    <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.25" />
+    </filter>
+  </defs>
+  <!-- Background with rounded rectangle -->
+  <rect width="512" height="512" rx="110" fill="url(#bgGrad)" />
+  
+  <!-- Subtle inner glow ring -->
+  <rect x="16" y="16" width="480" height="480" rx="98" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="4" />
+
+  <!-- Main emblem group -->
+  <g filter="url(#shadow)">
+    <!-- Shopping Cart body -->
+    <path d="M120 150 h44 l32 144 h164 l28 -112 H190" fill="none" stroke="#ffffff" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="210" cy="340" r="22" fill="#ffffff" />
+    <circle cx="340" cy="340" r="22" fill="#ffffff" />
+
+    <!-- Medicine Pill badge in center of cart -->
+    <g transform="translate(250, 160) rotate(45)">
+      <!-- Pill base -->
+      <rect x="-24" y="-55" width="48" height="110" rx="24" fill="#ffffff" />
+      <!-- Pill top half in vibrant blue -->
+      <path d="M -24 0 h 48 v -31 a 24 24 0 0 0 -48 0 z" fill="#0284c7" />
+      <!-- Pill dividing line -->
+      <line x1="-24" y1="0" x2="24" y2="0" stroke="#0f766e" stroke-width="3" />
+      <!-- Pill highlight -->
+      <line x1="-12" y1="-30" x2="-12" y2="30" stroke="rgba(255,255,255,0.5)" stroke-width="4" stroke-linecap="round" />
+    </g>
+
+    <!-- Checklist / Memo indicator tick in top right -->
+    <circle cx="380" cy="130" r="42" fill="#10b981" stroke="#ffffff" stroke-width="8" />
+    <path d="M362 130 l12 12 l24 -24" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Bengali text badge at bottom: আমার মেমো -->
+  <text x="256" y="442" text-anchor="middle" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="44" letter-spacing="2">MY MEMO</text>
+</svg>
